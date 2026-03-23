@@ -1,11 +1,13 @@
 from pathlib import Path
 import pandas as pd
+import utils
 
 methode = "skipgram"  # or "skipgram"
 if methode == "cbow":
     import word2vec_cbow as word2vec
 else :
     import word2vec_skipgram as word2vec
+
 
 D = 9         
 LEARNING_RATE = 0.05
@@ -31,22 +33,22 @@ lines = [
     ]"""
 with open(file_path_train, "r") as f:
         dataset_train = f.read()
-lines_train = word2vec.prep_dataset(dataset_train)
+lines_train = utils.prep_dataset(dataset_train)
 with open(file_path_test, "r") as f:
         dataset_test = f.read()
-lines_test = word2vec.prep_dataset(dataset_test)
+lines_test = utils.prep_dataset(dataset_test)
 
 def train_model(lines):
 
-    V, w2i, i2w = word2vec.vocabulary(lines)
+    V, w2i, i2w = utils.vocabulary(lines)
 
     W_in, W_out = word2vec.train(V,D, SEED,lines, w2i, window_size, epochs=EPOCHS, lr=LEARNING_RATE,patience=patience,min_delta=min_delta)
 
-    return word2vec.save_model(W_in, W_out, w2i, i2w)
+    return utils.save_model(W_in, W_out, w2i, i2w)
     
 
 def test_model(model,lines_test):
-    W_in, W_out, w2i, i2w = word2vec.load_model(model)
+    W_in, W_out, w2i, i2w = utils.load_model(model)
     from collections import Counter
     word_counts = Counter(w for line in lines_test for w in line.split())
     
@@ -62,7 +64,7 @@ def test_model(model,lines_test):
     print("-" * 55)
 
     for mot in candidates:
-        voisins = word2vec.plus_proches(W_in, w2i, i2w, mot, top_k=5)
+        voisins = utils.plus_proches(W_in, w2i, i2w, mot, top_k=5)
         if voisins:
             print(f"{mot:20s} → {', '.join(f'{w}({s:.2f})' for s,w in voisins)}")
 

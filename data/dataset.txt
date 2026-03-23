@@ -1,16 +1,159 @@
-the cat sat on the mat
-the dog sat on the floor
-the cat and the dog are friends
-cats and dogs are animals
-the mat is on the floor
-a cat likes to sit on a mat
-a dog likes to sit on the floor
-animals like cats and dogs are pets
-the king ruled the kingdom
-the queen ruled the kingdom
-the king and the queen are royalty
-man is to king as woman is to queen
-paris is the capital of france
-berlin is the capital of germany
-france and germany are countries in europe
-paris and berlin are cities in europe
+france paris europe occidental
+allemagne berlin europe central
+espagne madrid europe occidental
+italie rome europe meridional
+portugal lisbonne europe occidental
+angleterre londres europe occidental
+belgique bruxelles europe occidental
+pays bas amsterdam europe occidental
+suisse geneve europe central
+autriche vienne europe central
+pologne varsovie europe oriental
+russie moscou europe asie
+ukraine kiev europe oriental
+grece athenes europe meridional
+turquie ankara asie occidental
+chine pekin asie oriental
+japon tokyo asie oriental
+coree seoul asie oriental
+inde delhi asie meridional
+bresil brasilia amerique meridional
+argentine buenos aires amerique meridional
+mexique mexico amerique central
+canada ottawa amerique septentrional
+etats unis washington amerique septentrional
+australie canberra oceanie
+egypte caire afrique septentrional
+maroc rabat afrique septentrional
+nigeria lagos afrique occidental
+afrique sud pretoria afrique meridional
+roi reine prince princesse royaume couronne trone
+roi homme pouvoir royaume gouverner
+reine femme pouvoir royaume gouverner
+prince heritier roi fils royaume
+princesse heritiere reine fille royaume
+roi reine mariage couronne trone
+emperor empire pouvoir conquete guerre
+president republique gouverner election democratie
+ministre gouvernement politique parlement loi
+duc comte baron noblesse aristocratie
+homme femme enfant famille maison
+homme garcon masculin pere fils
+femme fille feminin mere fille
+pere mere enfant famille maison
+frere soeur famille parent enfant
+mari femme mariage couple amour
+acteur actrice cinema film jouer
+chanteur chanteuse musique concert chanson
+auteur ecrivain livre roman ecrire
+professeur eleve ecole classe apprendre
+chat chien animal domestique maison
+chat felins griffes miauler chasser
+chien canin aboyer mordre garder
+cheval equin galoper cavalier monter
+lion tigre leopard felins sauvage
+elephant rhinoceros hippopotame mammifere afrique
+aigle faucon rapace voler chasser
+serpent reptile venin ramper danger
+baleine dauphin requin ocean nager
+loup renard ours mammifere foret
+physique chimie biologie science laboratoire
+einstein relativite physique energie lumiere
+darwin evolution biologie espece naturel
+newton gravite physique force mouvement
+curie radioactivite chimie physique prix
+atome molecule electron proton neutron
+planete etoile galaxie univers cosmos
+soleil lune terre planete systeme
+energie masse vitesse lumiere temps
+ADN gene chromosome cellule biologie
+pain beurre fromage lait cuisine
+vin biere alcool boisson verre
+viande poisson legume fruit manger
+sucre sel poivre epice cuisiner
+restaurant chef cuisine repas table
+pizza pates riz pain cereale
+pomme poire orange banane fruit
+carotte tomate salade legume jardin
+chocolat cafe the sucre doux
+eau lait jus boisson soif
+football sport equipe joueur but
+tennis sport raquette balle court
+natation sport eau nager piscine
+cyclisme sport velo course montagne
+basket sport equipe panier balle
+rugby sport equipe ballon terrain
+ski sport montagne neige glisse
+boxe sport combat poing ring
+athletisme sport courir sauter vitesse
+golf sport balle club terrain
+medecin patient hopital soigner maladie
+avocat tribunal justice loi defendre
+ingenieur technique construire machine concevoir
+architecte batiment construire plan concevoir
+pilote avion voler cockpit altitude
+cuisinier restaurant cuisine repas preparer
+pompier feu secours incendie sauver
+policier crime loi ordre arreter
+infirmier hopital soin patient aider
+journaliste presse information ecrire publier
+montagne vallee riviere foret nature
+ocean mer plage vague sable
+foret arbre feuille bois nature
+desert sable chaleur sec aride
+ile ocean mer plage isoler
+fleuve riviere eau couler source
+volcan eruption lave magma feu
+glacier neige froid montagne fonte
+prairie herbe fleur plante nature
+jungle tropique humide plante animal
+ordinateur logiciel programme code informatique
+internet web navigateur reseau connecter
+telephone portable appeler message communication
+voiture moteur conduire route vitesse
+avion voler altitude aeroport passager
+train rail gare voyager rapide
+robot machine automatique programme travail
+intelligence artificielle apprentissage donnee modele
+camera photo image capturer pixel
+satellite orbite espace communication signal
+amour haine joie tristesse emotion
+peur courage danger brave affronter
+bonheur malheur chance destin vie
+colere calme emotion sentiment exprimer
+confiance doute certitude incertitude croire
+liberte prison esclave independance droit
+paix guerre conflit diplomatie accord
+justice injustice loi droit egalite
+verite mensonge honnete tromper croire
+espoir desespoir futur reve croire
+napoleon france guerre empire victoire
+shakespeare anglais theatre drame comedie
+mozart musique compositeur symphonie piano
+picasso peinture art cubisme tableau
+einstein physique relativite prix science
+darwin evolution biologie espece nature
+socrate philosophie grece question sagesse
+cesar rome empire conquete guerre
+cleopatre egypte reine pouvoir beaute
+gandhi inde paix independance resistance
+paris capitale france ville europe
+berlin capitale allemagne ville europe
+madrid capitale espagne ville europe
+rome capitale italie ville europe
+londres capitale angleterre ville europe
+tokyo capitale japon ville asie
+pekin capitale chine ville asie
+moscou capitale russie ville europe
+washington capitale etats unis ville amerique
+brasilia capitale bresil ville amerique
+homme masculin garcon pere frere
+femme feminin fille mere soeur
+roi masculin couronne trone royaume
+reine feminin couronne trone royaume
+prince masculin heritier jeune noblesse
+princesse feminin heritiere jeune noblesse
+acteur masculin cinema jouer role
+actrice feminin cinema jouer role
+chanteur masculin musique chanter scene
+chanteuse feminin musique chanter scene

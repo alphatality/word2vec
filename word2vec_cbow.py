@@ -1,5 +1,7 @@
 import numpy as np
 from collections import Counter
+import os
+from datetime import datetime
 
 
 def prep_dataset(dataset):
@@ -20,7 +22,6 @@ def create_paires(dataset_lines, w2i, window=2):
     pairs = []
     for line in dataset_lines:
         words = line.split()
-        # filter unknown words in one pass
         indices = [w2i[w] for w in words if w in w2i]
         n = len(indices)
         if n < 2:
@@ -28,7 +29,6 @@ def create_paires(dataset_lines, w2i, window=2):
         for i in range(n):
             lo = max(0, i - window)
             hi = min(n, i + window + 1)
-            # slice directly — no offset loop, no if checks
             context = indices[lo:i] + indices[i+1:hi]
             if context:
                 pairs.append((context, indices[i]))
@@ -107,8 +107,7 @@ def train(V, D, seed, dataset_lines, w2i, window_size, noisedist = None, epochs=
 
     return W_in, W_out
 
-import os
-from datetime import datetime
+
 
 def save_model(W_in, W_out, w2i, i2w, base_path="models"):
     os.makedirs(base_path, exist_ok=True)
